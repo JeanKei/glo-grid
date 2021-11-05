@@ -1,3 +1,55 @@
+.header {
+  display: grid;
+  grid-template-columns: 1.5fr 5fr 2fr;
+  grid-template-areas: "header__logo header__nav header__contacts" ". header__content .";
+  grid-template-rows: 1fr 10fr;
+  grid-column-gap: 15px;
+  min-height: 600px;
+  align-items: center;
+  // .header__logo
+  &__logo {
+    grid-area: header__logo;
+    justify-self: center;
+  }
+  // .header__logo-img
+  &__logo-img {
+  }
+  // .header__nav
+  &__nav {
+    grid-area: header__nav;
+  }
+  // .header__nav-link
+  &__nav-link {
+  }
+  // .header__contacts
+  &__contacts {
+    grid-area: header__contacts;
+    justify-self: center;
+  }
+  // .header__contacts-link
+  &__contacts-link {
+  }
+  // .header__content
+  &__content {
+    grid-area: header__content;
+  }
+  // .header__title
+  &__title {
+  }
+  // .header__subtitle
+  &__subtitle {
+  }
+  // .header__buttons
+  &__buttons {
+  }
+  // .header__button
+  &__button {
+  }
+  // .header__button-link
+  &__button-link {
+  }
+}
+
 // ============ БУРГЕР ===========
 
 // .icon-menu {
