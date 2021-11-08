@@ -105,7 +105,7 @@ function js() {
 
 // 5. IMAGES
 function images() {
-  return src(path.src.img) // выбор всех html файлов по указанному пути
+  return src(path.src.img) // выбор всех файлов по указанному пути
   .pipe(imagemin([
 	      imagemin.gifsicle({interlaced: true}),
 	      imagemin.mozjpeg({ progressive: true}),

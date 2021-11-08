@@ -1,3 +1,46 @@
-//================================================= SECTION =========================================================
-
-//================================================ /SECTION =========================================================
+.section {
+  padding: 5% 1%;
+}
+.about-section {
+  // .about-section__title
+  &__title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 55px;
+  }
+  // .about-section__description
+  &__description {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: #666666;
+    font-size: 22px;
+    line-height: 1.6;
+  }
+}
+.about {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, max-content));
+  // .about__block
+  &__block {
+    display: grid;
+    grid-template-rows: 300px auto 50px;
+    grid-auto-rows: auto;
+    align-items: end;
+    justify-items: center;
+  }
+  // .about__img
+  &__img {
+  }
+  // .about__title
+  &__title {
+    color: #ff591f;
+    font-size: 90px;
+    margin: 0;
+    margin-top: -70px;
+  }
+  &__text {
+    align-self: start;
+  }
+}

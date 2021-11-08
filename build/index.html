@@ -10,7 +10,10 @@
 
   <body>
     <div class="wrapper">
-      <header class="header">
+      <header class="header container">
+  <div class="circle circle__small"></div>
+  <div class="circle circle__big"></div>
+  <img src="img/img-bg.png" alt="" class="header__img-bg">
   <a href="#" class="header__logo">
     <img src="img/logo.png" class="header__logo-img"></img>
   </a>
@@ -23,20 +26,72 @@
     <a href="#" class="header__nav-link">Контакты</a>
   </nav>
   <div class="header__contacts">
-    <a href="tel:+78001236554" class="header__contacts-link">8 800 123-65-54</a>
-    <a href="#" class="header__contacts-link">заказать звонок</a>
+    <a href="tel:+78001236554" class="header__contacts-link header__contacts-phone">8 800 123-65-54</a>
+    <a href="#" class="header__contacts-link header__contacts-callback">заказать звонок</a>
   </div>
   <div class="header__content">
     <h1 class="header__title">Проведем ваш<br>праздник под ключ!</h1>
-    <span class="header__subtitle">Подберем любой персонал и организуем мероприятия любой сложност</span>
+    <span class="header__subtitle">Подберем любой персонал и организуем<br> мероприятия любой сложност</span>
     <div class="header__buttons">
       <a href="#" class="header__button button">Заказать персонал</a>
       <a href="#" class="header__button-link button-link">Узнать больше</a>
     </div>
+    <div class="arrows">
+      <button class="arrow arrows__left"><img src="img/arrow-point-to-left.png" alt=""></button>
+      <button class="arrow arrows__right"><img src="img/arrow-point-to-right.png" alt=""></button>
+    </div>
+    <div class="thumbs">
+      <a href="#" class="thumbs__link">Промоутеры</a>
+      <a href="#" class="thumbs__link">Промо модели</a>
+      <a href="#" class="thumbs__link">Стендистки</a>
+      <a href="#" class="thumbs__link">Консультанты</a>
+      <a href="#" class="thumbs__link">Хостес</a>
+    </div>
   </div>
 </header>
 
-      <main class="page"></main>
+      <main class="page">
+        <section class="section about-section container">
+          <h2 class="about-section__title">Кто мы такие?</h2>
+          <p class="about-section__description">
+            С 2006 года MAXIMALLLS активно занимается организацией
+            бизнес-мероприятий по системе M.I.C.E. Качество нашей работы
+            отмечают зарубежные коллеги, нас ценят и уважают, нам доверяют
+            реализацию самых сложных с точки зрения организации проектов.
+          </p>
+          <div class="about">
+            <div class="about__block">
+              <img class="about__img" src="img/about/1.png" alt="" />
+              <h3 class="about__title">10</h3>
+              <span class="about__text">лет работы</span>
+            </div>
+            <div class="about__block">
+              <img class="about__img" src="img/about/2.png" alt="" />
+              <h3 class="about__title">34</h3>
+              <span class="about__text"
+                >городов<br />
+                присутствия</span
+              >
+            </div>
+            <div class="about__block">
+              <img class="about__img" src="img/about/3.png" alt="" />
+              <h3 class="about__title">1011</h3>
+              <span class="about__text"
+                >проведено<br />
+                мероприятий
+              </span>
+            </div>
+            <div class="about__block">
+              <img class="about__img" src="img/about/4.png" alt="" />
+              <h3 class="about__title">543</h3>
+              <span
+                >позитивных<br />
+                промоутеров</span
+              >
+            </div>
+          </div>
+        </section>
+      </main>
       <footer class="footer">
   <div class="footer__content _container"></div>
 </footer>
